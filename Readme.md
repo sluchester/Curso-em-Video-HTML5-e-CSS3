@@ -74,3 +74,14 @@ OBS: h1 é o seletor. O que está dentro das chaves é a "declaração". Cada de
 - Front-end: tecnologias que vão rodar do lado do cliente. UX/UI.
 - Back-end: tecnologias que vão rodar no lado do servidor. Ex: php, js, c#, python, ruby, java.
 - Full-Stack: a junção dos dois acima.
+
+## Imagens x licenças
+- A maior parte das imagens são licenciadas.
+- Ao criar um site profissional, não é qualquer imagem que pode ser utilizada.
+
+Como procurar uma imagem sem licença:
+- pesquisa no google imagens > ferramentas > Direitos de uso > escolher para melhor uso
+
+### Melhores sites para obter imagens
+- unsplash.com
+- pexels.com
