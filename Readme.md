@@ -85,3 +85,20 @@ Como procurar uma imagem sem licença:
 ### Melhores sites para obter imagens
 - unsplash.com
 - pexels.com
+
+
+## Imagens - Aula 17
+Algumas considerações:
+- sites lentos não aparecem na pesquisa do google
+- jpeg: consegue compactar uma imagem(guarda a informação de um ponto relativo ao outro). Menos detalhes.
+- png: permite transparência. Maior qualidade
+- máxima largura para página web: 1500
+- resolução: até 72 já é bom
+- usar o gimp para fazer o redimensionamento da imagem. Imagem > redimensionar imagem > usar o tab para continuar o elo e modificar a altura automaticamente
+
+## Semântica
+- significado dos vocábulos, por oposição à sua forma. HTML5 é focado no significado.
+- sentido
+- tudo que é forma -> CSS
+
+Algumas tags se tornaram obsoletas a partir do html5. Pesquisar no google: html5 obsolete tags (dev.w3.org/...).
