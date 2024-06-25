@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <!--target= _blank permite que o seu site continue aberto, e o link externo que você colocou dentro dele seja aberto em outra guia-->
+    <p>Você pode acessar o <a href="https://github.com/sluchester?tab=repositories" target="_blank" rel="external">meu repositório público no github</a></p>
+
+    <h1>Usando links internos</h1>
+    <p>Esta é a primeira página do meu site. Se você quiser acessar a segunda página, basta clicar <a href="linkDois.html" target="_self" rel="next">aqui</a></p>
+    <!--Tag "nofollow" é geralmente usada para marcas patrocinadoras. Isso diz para o mecanismo de busca não ficar indexando lá dentro, que "eu não dou o meu aval para o conteúdo do link"-->
+    <br>
+    <p>Esta página é um oferecimento de <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank" rel="nofollow">Curso em Vídeo</a></p>
+    <br>
+    <p>Você também pode acessar minha <a href="noticias/noticias.html" target="_self" rel="next">página de notícias.</a></p>
+    <h1>Usando links para Download</h1>
+    <ul>
+        <!--para o uso de outros "type": iana.org/assignments/media-types-->
+        <li><a href="cifra/Rei do Meu Coração - versão Bethel Multitrack.pdf" download="nomeDoArquivo" type="application/pdf">Baixar o link em pdf</a></li>
+    </ul>
+</body>
+</html>
