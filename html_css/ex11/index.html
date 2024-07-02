@@ -15,5 +15,33 @@
         <source media="(max-width: 1000px)" srcset="imagens/foto-m.png" type="image/png">
         <img src="imagens/foto-g.png" alt="Imagem flexível">
     </picture>
+
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos reproduzir áudios.</p>
+    <!--<audio src="midia/Headlands - National Sweetheart.mp3" controls></audio>--> <!--mp3, wav, ogg (open source)-->
+    <audio preload="metadata" controls>
+        <source src="midia/Headlands - National Sweetheart.mp3" type="audio/mpeg">
+        <!--<source src="midia/Headlands - National Sweetheart.ogg" type="audio/ogg">-->
+        <!--<source src="midia/Headlands - National Sweetheart.wav" type="audio/wav">-->
+        <!--primeiro vai carregar o que está em primeiro. Caso não funcione, irá carregar o de baixo. NÃO USAR WAV-->
+        <p>Infelizmente, seu navegador n consegue carregar um áudio</p>
+    </audio>
+
+    <h1>Reprouzindo vídeos</h1>
+    <!--aplicação: handbrake. Usado para conversao de formatos e etc-->
+    <!--compatibilidades: ogv, mp4, m4v e webm - chrome
+                          ogv, webm - firefox e opera
+    mpr 4 m4v sao padroes de mpeg
+    -->
+    <p>Inserindo vídeos hospdedados localmente</p>
+    <video width="500" controls>
+        <source src="midia/11927032_640_360_30fps.mp4" type="video/mp4">
+        <!--<source src="midia/11927032_640_360_30fps.m4v" type="video/mp4">-->
+        <!--<source src="midia/11927032_640_360_30fps.webm" type="video/webm">-->
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos</p>
+    </video>
+    <!--
+
+    -->
 </body>
 </html>
