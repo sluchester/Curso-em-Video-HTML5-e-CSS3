@@ -75,6 +75,7 @@ OBS: h1 é o seletor. O que está dentro das chaves é a "declaração". Cada de
 - Back-end: tecnologias que vão rodar no lado do servidor. Ex: php, js, c#, python, ruby, java.
 - Full-Stack: a junção dos dois acima.
 - Ao criar um site, não se cadastra no Google. O que se deve fazer (ESTUDAR SEO) é ter um código organizado e bom que permita aos mecanismos do Google encontrar o site criado.
+- Para adicionar áudio sem licenças: youtube Studio > biblioteca de áudio > filtros > atribuição não é necessária
 
 ## Imagens x licenças
 - A maior parte das imagens são licenciadas.
